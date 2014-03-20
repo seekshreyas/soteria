@@ -1,3 +1,6 @@
 [submodule "wiki"]
 	path = wiki
 	url = git@github.com:vstarostenko/soteria.wiki.git
+[submodule "data/VCDB"]
+	path = data/VCDB
+	url = git@github.com:vz-risk/VCDB.git
