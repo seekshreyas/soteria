@@ -36,4 +36,7 @@ nosetests.xml
 .pydevproject
 
 # IPython Notebooks
-.ipynb_*
+.ipynb_checkpoints
+
+# Windows
+Thumbs.db
