@@ -1,23 +1,51 @@
 #! /usr/bin/env python
-
+from __future__ import division
 from mrjob.job import MRJob
-from mrjob.protocol import JSONValueProtocol
+from itertools import combinations
+from sklearn.metrics import jaccard_similarity_score
+import numpy as np
+# from mrjob.protocol import JSONValueProtocol
 
 
-def jaccard(a, b):
-    """
-    Calculate Jaccard Similarity for 2 vectors
-    """
-    return float(len(set(a) & set(b))) / len(set(a) | set(b))
 
 
-class attackSimilarity(MRJob):
-    INPUT_PROTOCOL = JSONValueProtocol
+class AttackSimilarity(MRJob):
+    # INPUT_PROTOCOL = JSONValueProtocol
 
 
-    def extract_attack_vector(self, _, record):
+    def extract_incident(self, _, line):
+        record = line.split(',')
 
-        yield record['discovery_method'], record['timeline.incident.year']
+        # print record
+        if record[0] != 'incident_id':
+            feature = record[1:]
+            incident = record[0]
+
+            yield incident, list(feature)
+
+
+    def combine_incident(self, incident, feature):
+        allfeatures = list(feature)
+
+        yield incident, list(allfeatures[0])
+
+
+    def map_incident(self, incd, incdfeat):
+        yield "all" , [incd, list(incdfeat)]
+
+
+    def reduce_incident(self, _, allincidents):
+        for (inc_a, feat_a), (inc_b, feat_b) in combinations(list(allincidents), r=2):
+
+            feat_a_array = np.array(feat_a, dtype='int')
+            feat_b_array = np.array(feat_b, dtype='int')
+
+
+            similarity = jaccard_similarity_score(feat_a_array, feat_b_array)
+
+            yield [inc_a, inc_b], similarity
+
+
 
 
 
@@ -25,11 +53,24 @@ class attackSimilarity(MRJob):
 
     def steps(self):
         """
-        steps:
+        MapReduce Steps:
+
+        extract_incident :   <_, line>  =>  <incident, feature>
+        combine_incident :   <incident, [feature]> => <incident, allfeatures>
         """
 
-        return [self.mr(self.extract_attack_vector)]
+        return [
+            self.mr(mapper=self.extract_incident, reducer=self.combine_incident),
+            self.mr(mapper=self.map_incident, reducer=self.reduce_incident)
+            # self.mr(reducer=self.reduce_incident)
+        ]
+
+
+
+
+
+
 
 
 if __name__ == '__main__':
-    attackSimilarity.run();
+    AttackSimilarity.run();
