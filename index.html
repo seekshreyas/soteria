@@ -1,1 +1,139 @@
-Soteria Page
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="Search Twitter">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="static/css/normalize.css">
+        <link rel="stylesheet" href="static/css/main.css">
+        <script src="static/js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <div class="wrapper-page">
+                <h1>Feed Sentiment</h1>
+            </div>
+        </header>
+
+        <section id="wrapper-search">
+            <div class="wrapper-page">
+                <form class="form-general" action="#">
+                    <fieldset>
+                        <legend>Search</legend>
+                        <ul class="list-general">
+                            <li>
+                                <label class="fieldlabel" for="field-searchtext">Query</label>
+                                <input type="text" id="field-searchtext" placeholder="search query" />
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Load from prepared data</legend>
+                        <ul class="list-general">
+                            <li>
+                                <label class="fieldlabel">Data Available</label>
+                                <input name="datasource" type="radio" id="field-data-worldcup"  value="worldcup"/>
+                                <label for="field-data-worldcup">World Cup</label>
+
+                                <input name="datasource" type="radio" id="field-data-badcomments"  value="badcomments"/>
+                                <label for="field-data-badcomments">Bad Comments</label>
+
+                                <input name="datasource" type="radio" id="field-data-ipl"  value="ipl"/>
+                                <label for="field-data-ipl">IPL</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+                <div class="progress sentiment">
+                    <span>Sentiment Progress</span>
+                    <span class="bar">&nbsp;</span>
+                </div>
+            </div>
+
+            
+
+
+            
+        </section>
+        <section id="wrapper-feed">
+            <div id="filters" class="button-group">
+              <button data-filter="*">show all</button>
+              <button data-filter=".positive">positive</button>
+              <button data-filter=".neutral">neutral</button>
+              <button data-filter=".negative">negative</button>
+              <button data-filter=".positive, .negative">positive & negative</button>
+              
+              
+            </div>
+            
+
+
+            <div class="feed">
+              <div class="element-feed positive " data-category="positive">
+                <p class="tags">#this-tag</p>
+                <p class="text">This was very good. This is an example of a positive comment</p>
+                <p class="author">@seekshreyas</p>
+                <p class="sentiment">&#58543;</p>
+                <p class="retweet">2</p>
+                <p class="favorite">2</p>
+              </div>
+
+              
+
+              <div class="element-feed neutral" data-category="neutral">
+                <p class="tags">#tag1 #tag2</p>
+                <p class="text">lorem ipsum dolor sit amet. A general neutral comment</p>
+                <p class="author">@seekshreyas</p>
+                <p class="sentiment">&#9205;</p>
+                <p class="retweet">2</p>
+                <p class="favorite">2</p>
+              </div>
+
+              <div class="element-feed neutral height2" data-category="neutral">
+                <p class="tags">#this-tags</p>
+                <p class="text">This is a neutral comment. I have no opinion either ways.</p>
+                <p class="author">@seekshreyas</p>
+                <figure class="media">
+                    <img src="static/img/pict_movie.png" width="160" height="120" >
+                    <figcaption>watch this!</figcaption>
+                </figure>
+                <p class="sentiment">&#9205;</p>
+                <p class="retweet">2</p>
+                <p class="favorite">2</p>
+              </div>
+
+              <div  class="element-feed negative width2 " data-category="negative">
+                <p class="tags">#this-tag1 #this-tag2</p>
+                <p class="text">This was very bad. This is an example of a negative comment</p>
+                <p class="author">@seekshreyas</p>
+                <p class="sentiment">&#11015;</p>
+                <p class="retweet">2</p>
+                <p class="favorite">2</p>
+              </div>
+              
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper-page">
+                <p>Authored by Shreyas</p>
+            </div>
+        </footer>
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="static/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="static/js/vendor/isotope.pkgd.js"></script>
+        <script src="static/js/plugins.js"></script>
+        <script src="static/js/main.js"></script>
+
+    </body>
+</html>

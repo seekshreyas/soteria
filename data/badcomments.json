@@ -1,0 +1,1586 @@
+{
+    "search_metadata": {
+        "completed_in": 0.029,
+        "count": 15,
+        "max_id": 456329753813725184,
+        "max_id_str": "456329753813725184",
+        "next_results": "?max_id=456314921395838975&q=bad%20comments&include_entities=1",
+        "query": "bad+comments",
+        "refresh_url": "?since_id=456329753813725184&q=bad%20comments&include_entities=1",
+        "since_id": 0,
+        "since_id_str": "0"
+    },
+    "statuses": [
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 07:14:26 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 56413792,
+                        "id_str": "56413792",
+                        "indices": [
+                            0,
+                            10
+                        ],
+                        "name": "Samuel",
+                        "screen_name": "samuelys7"
+                    },
+                    {
+                        "id": 1023031710,
+                        "id_str": "1023031710",
+                        "indices": [
+                            11,
+                            27
+                        ],
+                        "name": "GeorgeElias\u2665\u2665\u2122",
+                        "screen_name": "HymnsRanksElias"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456329753813725184,
+            "id_str": "456329753813725184",
+            "in_reply_to_screen_name": "samuelys7",
+            "in_reply_to_status_id": 456329379711557632,
+            "in_reply_to_status_id_str": "456329379711557632",
+            "in_reply_to_user_id": 56413792,
+            "in_reply_to_user_id_str": "56413792",
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "text": "@samuelys7 @HymnsRanksElias corny. Your comments are just as bad as your shitty national team. Wanna be Argentine.",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Wed Jul 07 00:33:17 +0000 2010",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Seleccion Chilena // Knicks // Mets // Jets // Universidad de Chile - all you need to know.",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 1067,
+                "follow_request_sent": null,
+                "followers_count": 519,
+                "following": null,
+                "friends_count": 359,
+                "geo_enabled": false,
+                "id": 163669548,
+                "id_str": "163669548",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 15,
+                "location": "Queens, NY ",
+                "name": "Felipe",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000119080525/734246918ce8c61ed9fbc6f0970eb2ee.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000119080525/734246918ce8c61ed9fbc6f0970eb2ee.jpeg",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/163669548/1384736792",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/378800000307195032/4c5d2e1cb1217829ed96c83ef06b2062_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000307195032/4c5d2e1cb1217829ed96c83ef06b2062_normal.jpeg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "Funionz",
+                "statuses_count": 45120,
+                "time_zone": "Eastern Time (US & Canada)",
+                "url": null,
+                "utc_offset": -14400,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 07:12:38 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 407749483,
+                        "id_str": "407749483",
+                        "indices": [
+                            0,
+                            11
+                        ],
+                        "name": "armut armut",
+                        "screen_name": "armut_no11"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456329300602396672,
+            "id_str": "456329300602396672",
+            "in_reply_to_screen_name": "armut_no11",
+            "in_reply_to_status_id": 456326320977616896,
+            "in_reply_to_status_id_str": "456326320977616896",
+            "in_reply_to_user_id": 407749483,
+            "in_reply_to_user_id_str": "407749483",
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "web",
+            "text": "@armut_no11 They just block anyone, members as well when they complain about the poor service and tips.That's why you never see bad comments",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sun Jan 29 00:22:29 +0000 2012",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 212,
+                "follow_request_sent": null,
+                "followers_count": 151,
+                "following": null,
+                "friends_count": 74,
+                "geo_enabled": true,
+                "id": 477244873,
+                "id_str": "477244873",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 0,
+                "location": "",
+                "name": "brian",
+                "notifications": null,
+                "profile_background_color": "C6E2EE",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/757613574/44741972a8be2d41fc1ecf812bc063aa.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/757613574/44741972a8be2d41fc1ecf812bc063aa.jpeg",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/477244873/1396291271",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/450704726296776704/Z7xwiNk3_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/450704726296776704/Z7xwiNk3_normal.jpeg",
+                "profile_link_color": "1F98C7",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "brainballs",
+                "statuses_count": 3652,
+                "time_zone": null,
+                "url": null,
+                "utc_offset": null,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 07:11:44 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "feedproxy.google.com/~r/NiemanJourn\u2026",
+                        "expanded_url": "http://feedproxy.google.com/~r/NiemanJournalismLab/~3/u16VCyP6F2A/",
+                        "indices": [
+                            118,
+                            140
+                        ],
+                        "url": "http://t.co/Zlv9eNrgOZ"
+                    }
+                ],
+                "user_mentions": [
+                    {
+                        "id": 66594996,
+                        "id_str": "66594996",
+                        "indices": [
+                            3,
+                            13
+                        ],
+                        "name": "Daniel J. Schneider",
+                        "screen_name": "schneidan"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456329076651749376,
+            "id_str": "456329076651749376",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 1,
+            "retweeted": false,
+            "retweeted_status": {
+                "contributors": null,
+                "coordinates": null,
+                "created_at": "Wed Apr 16 06:37:56 +0000 2014",
+                "entities": {
+                    "hashtags": [],
+                    "symbols": [],
+                    "urls": [
+                        {
+                            "display_url": "feedproxy.google.com/~r/NiemanJourn\u2026",
+                            "expanded_url": "http://feedproxy.google.com/~r/NiemanJournalismLab/~3/u16VCyP6F2A/",
+                            "indices": [
+                                103,
+                                125
+                            ],
+                            "url": "http://t.co/Zlv9eNrgOZ"
+                        }
+                    ],
+                    "user_mentions": []
+                },
+                "favorite_count": 0,
+                "favorited": false,
+                "geo": null,
+                "id": 456320569852436480,
+                "id_str": "456320569852436480",
+                "in_reply_to_screen_name": null,
+                "in_reply_to_status_id": null,
+                "in_reply_to_status_id_str": null,
+                "in_reply_to_user_id": null,
+                "in_reply_to_user_id_str": null,
+                "lang": "en",
+                "metadata": {
+                    "iso_language_code": "en",
+                    "result_type": "recent"
+                },
+                "place": null,
+                "possibly_sensitive": false,
+                "retweet_count": 1,
+                "retweeted": false,
+                "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+                "text": "Ending question is one I have, too. || Some news orgs killing comments, not just because they're bad:  http://t.co/Zlv9eNrgOZ",
+                "truncated": false,
+                "user": {
+                    "contributors_enabled": false,
+                    "created_at": "Tue Aug 18 04:26:09 +0000 2009",
+                    "default_profile": false,
+                    "default_profile_image": false,
+                    "description": "Photographer and journalist. Online News and Projects Producer @DenverPost. Film junkie. B+W lover. Big nerd. I tend to think with my mouth open.",
+                    "entities": {
+                        "description": {
+                            "urls": []
+                        },
+                        "url": {
+                            "urls": [
+                                {
+                                    "display_url": "scrollwright.com",
+                                    "expanded_url": "http://www.scrollwright.com",
+                                    "indices": [
+                                        0,
+                                        22
+                                    ],
+                                    "url": "http://t.co/ChJm66sXVs"
+                                }
+                            ]
+                        }
+                    },
+                    "favourites_count": 1117,
+                    "follow_request_sent": null,
+                    "followers_count": 1823,
+                    "following": null,
+                    "friends_count": 1023,
+                    "geo_enabled": true,
+                    "id": 66594996,
+                    "id_str": "66594996",
+                    "is_translation_enabled": false,
+                    "is_translator": false,
+                    "lang": "en",
+                    "listed_count": 212,
+                    "location": "Denver, Colorado",
+                    "name": "Daniel J. Schneider",
+                    "notifications": null,
+                    "profile_background_color": "CCCCCC",
+                    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/875010829/f1c631f5fea88b6b706ac1eeb27e1cf4.jpeg",
+                    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/875010829/f1c631f5fea88b6b706ac1eeb27e1cf4.jpeg",
+                    "profile_background_tile": true,
+                    "profile_banner_url": "https://pbs.twimg.com/profile_banners/66594996/1363211711",
+                    "profile_image_url": "http://pbs.twimg.com/profile_images/3608823718/e3707412866b776a92ae1705ec88df22_normal.jpeg",
+                    "profile_image_url_https": "https://pbs.twimg.com/profile_images/3608823718/e3707412866b776a92ae1705ec88df22_normal.jpeg",
+                    "profile_link_color": "A11806",
+                    "profile_sidebar_border_color": "FFFFFF",
+                    "profile_sidebar_fill_color": "CCCCCC",
+                    "profile_text_color": "000000",
+                    "profile_use_background_image": true,
+                    "protected": false,
+                    "screen_name": "schneidan",
+                    "statuses_count": 12986,
+                    "time_zone": "Mountain Time (US & Canada)",
+                    "url": "http://t.co/ChJm66sXVs",
+                    "utc_offset": -21600,
+                    "verified": true
+                }
+            },
+            "source": "web",
+            "text": "RT @schneidan: Ending question is one I have, too. || Some news orgs killing comments, not just because they're bad:  http://t.co/Zlv9eNrgOZ",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sat Oct 17 08:23:02 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "surveillance industry watchdog at @ipvideo | @DeathandTaxes Contributor | @MuckRockNews user | Hip-Hop, Public Health, Investigative Reporting and /r/FOIA",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "reddit.com/r/foia/",
+                                "expanded_url": "http://www.reddit.com/r/foia/",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/8g6K8znENN"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 998,
+                "follow_request_sent": null,
+                "followers_count": 1342,
+                "following": null,
+                "friends_count": 938,
+                "geo_enabled": true,
+                "id": 83088093,
+                "id_str": "83088093",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 68,
+                "location": "Washington, D.C.",
+                "name": "Carlton Purvis",
+                "notifications": null,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/96784560/Picture_6.png",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/96784560/Picture_6.png",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/83088093/1349976111",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1907068448/photo_normal.JPG",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1907068448/photo_normal.JPG",
+                "profile_link_color": "009999",
+                "profile_sidebar_border_color": "EEEEEE",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": false,
+                "protected": false,
+                "screen_name": "CarltonPurvis",
+                "statuses_count": 34552,
+                "time_zone": "Eastern Time (US & Canada)",
+                "url": "http://t.co/8g6K8znENN",
+                "utc_offset": -14400,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:51:50 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "ift.tt/1eKzMXA",
+                        "expanded_url": "http://ift.tt/1eKzMXA",
+                        "indices": [
+                            61,
+                            83
+                        ],
+                        "url": "http://t.co/LSt9CX6rbd"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456324068934164480,
+            "id_str": "456324068934164480",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+            "text": "Whether you like hockey or not, Pavel Datsyuk is a bad motha http://t.co/LSt9CX6rbd",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Wed Aug 01 20:05:50 +0000 2012",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Factor Viral Sports News Network - Bringing the best from the world of sports.",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "fvsnn.heliohost.org",
+                                "expanded_url": "http://fvsnn.heliohost.org",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/r5eUjuVTpo"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 0,
+                "follow_request_sent": null,
+                "followers_count": 1066,
+                "following": null,
+                "friends_count": 868,
+                "geo_enabled": false,
+                "id": 731354497,
+                "id_str": "731354497",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 13,
+                "location": "The Fan Cave",
+                "name": "FVSNN",
+                "notifications": null,
+                "profile_background_color": "FFFFFF",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/620805447/6-986108636.br.jpg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/620805447/6-986108636.br.jpg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/2456465277/5z27dv280sbebo093fzb_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/2456465277/5z27dv280sbebo093fzb_normal.jpeg",
+                "profile_link_color": "0000FF",
+                "profile_sidebar_border_color": "000000",
+                "profile_sidebar_fill_color": "809272",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "FVSNN2012",
+                "statuses_count": 391951,
+                "time_zone": "Central Time (US & Canada)",
+                "url": "http://t.co/r5eUjuVTpo",
+                "utc_offset": -18000,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:51:11 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456323902226984962,
+            "id_str": "456323902226984962",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://www.twitter.com\" rel=\"nofollow\">Twitter for Windows Phone</a>",
+            "text": "I always get bad comments just because i ain't pretty people judge me but i always believe looks does not matter \ud83d\ude0a but it hurts badly",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Apr 16 04:53:21 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "I love JB & 1D like crazy and will be fan forever JUSTIN NIALL ZAYN LIAM HARRY LOUIS 3 3 forever follow me instagram (sanniemcr)",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 77,
+                "follow_request_sent": null,
+                "followers_count": 872,
+                "following": null,
+                "friends_count": 1840,
+                "geo_enabled": true,
+                "id": 31649919,
+                "id_str": "31649919",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 0,
+                "location": "india",
+                "name": "susan 1D JB",
+                "notifications": null,
+                "profile_background_color": "642D8B",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme10/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme10/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/31649919/1388559231",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/456125195904774144/A9ZWeN4f_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/456125195904774144/A9ZWeN4f_normal.jpeg",
+                "profile_link_color": "FF0000",
+                "profile_sidebar_border_color": "65B0DA",
+                "profile_sidebar_fill_color": "7AC3EE",
+                "profile_text_color": "3D1957",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "jalluri",
+                "statuses_count": 375,
+                "time_zone": null,
+                "url": null,
+                "utc_offset": null,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": {
+                "coordinates": [
+                    -2.1418,
+                    52.0576
+                ],
+                "type": "Point"
+            },
+            "created_at": "Wed Apr 16 06:50:04 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "motorwayservices.info/strensham_serv\u2026",
+                        "expanded_url": "http://motorwayservices.info/strensham_services_m5/comments",
+                        "indices": [
+                            104,
+                            126
+                        ],
+                        "url": "http://t.co/9EMxGBAACT"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": {
+                "coordinates": [
+                    52.0576,
+                    -2.1418
+                ],
+                "type": "Point"
+            },
+            "id": 456323624958701568,
+            "id_str": "456323624958701568",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": {
+                "attributes": {},
+                "bounding_box": {
+                    "coordinates": [
+                        [
+                            [
+                                -3.23560072135158,
+                                51.8259029271059
+                            ],
+                            [
+                                -1.17213601934124,
+                                51.8259029271059
+                            ],
+                            [
+                                -1.17213601934124,
+                                53.2262100153425
+                            ],
+                            [
+                                -3.23560072135158,
+                                53.2262100153425
+                            ]
+                        ]
+                    ],
+                    "type": "Polygon"
+                },
+                "contained_within": [],
+                "country": "United Kingdom",
+                "country_code": "GB",
+                "full_name": "West Midlands, United Kingdom",
+                "id": "60160252aeb7e3e5",
+                "name": "West Midlands",
+                "place_type": "admin",
+                "url": "https://api.twitter.com/1.1/geo/id/60160252aeb7e3e5.json"
+            },
+            "possibly_sensitive": false,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://www.good-stuff.co.uk\" rel=\"nofollow\">Good Stuff Tweeter</a>",
+            "text": "mr pinn praised Strensham Services \"this place is not bad the mcdoandas is nice the bilding is nice...\" http://t.co/9EMxGBAACT",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Oct 22 14:03:08 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Review and Rate Motorway Services in the UK.",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "motorwayservices.info",
+                                "expanded_url": "http://www.motorwayservices.info",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/jRCPil3pI2"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 0,
+                "follow_request_sent": null,
+                "followers_count": 3775,
+                "following": null,
+                "friends_count": 3635,
+                "geo_enabled": true,
+                "id": 84331991,
+                "id_str": "84331991",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 56,
+                "location": "The UK",
+                "name": "Motorway Services",
+                "notifications": null,
+                "profile_background_color": "022330",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/47228234/twbg.jpg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/47228234/twbg.jpg",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/484973750/Motorway_Services_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/484973750/Motorway_Services_normal.png",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "A8C7F7",
+                "profile_sidebar_fill_color": "C0DFEC",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "motorwayservice",
+                "statuses_count": 6624,
+                "time_zone": "London",
+                "url": "http://t.co/jRCPil3pI2",
+                "utc_offset": 3600,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:37:56 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "feedproxy.google.com/~r/NiemanJourn\u2026",
+                        "expanded_url": "http://feedproxy.google.com/~r/NiemanJournalismLab/~3/u16VCyP6F2A/",
+                        "indices": [
+                            103,
+                            125
+                        ],
+                        "url": "http://t.co/Zlv9eNrgOZ"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456320569852436480,
+            "id_str": "456320569852436480",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 1,
+            "retweeted": false,
+            "source": "<a href=\"http://www.apple.com\" rel=\"nofollow\">iOS</a>",
+            "text": "Ending question is one I have, too. || Some news orgs killing comments, not just because they're bad:  http://t.co/Zlv9eNrgOZ",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Tue Aug 18 04:26:09 +0000 2009",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Photographer and journalist. Online News and Projects Producer @DenverPost. Film junkie. B+W lover. Big nerd. I tend to think with my mouth open.",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "scrollwright.com",
+                                "expanded_url": "http://www.scrollwright.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/ChJm66sXVs"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 1117,
+                "follow_request_sent": null,
+                "followers_count": 1823,
+                "following": null,
+                "friends_count": 1023,
+                "geo_enabled": true,
+                "id": 66594996,
+                "id_str": "66594996",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 212,
+                "location": "Denver, Colorado",
+                "name": "Daniel J. Schneider",
+                "notifications": null,
+                "profile_background_color": "CCCCCC",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/875010829/f1c631f5fea88b6b706ac1eeb27e1cf4.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/875010829/f1c631f5fea88b6b706ac1eeb27e1cf4.jpeg",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/66594996/1363211711",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/3608823718/e3707412866b776a92ae1705ec88df22_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/3608823718/e3707412866b776a92ae1705ec88df22_normal.jpeg",
+                "profile_link_color": "A11806",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "CCCCCC",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "schneidan",
+                "statuses_count": 12986,
+                "time_zone": "Mountain Time (US & Canada)",
+                "url": "http://t.co/ChJm66sXVs",
+                "utc_offset": -21600,
+                "verified": true
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:37:03 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456320347361402880,
+            "id_str": "456320347361402880",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://www.facebook.com/twitter\" rel=\"nofollow\">Facebook</a>",
+            "text": "Get a bad B and post up like comments....",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sat Mar 19 02:29:16 +0000 2011",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Designer/Artist/Inspirationalist",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "illegomedia.com",
+                                "expanded_url": "http://www.illegomedia.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/TEZSEuIhJY"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 15,
+                "follow_request_sent": null,
+                "followers_count": 376,
+                "following": null,
+                "friends_count": 865,
+                "geo_enabled": true,
+                "id": 268587118,
+                "id_str": "268587118",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 3,
+                "location": "IE, CA",
+                "name": "ILLEGO Media",
+                "notifications": null,
+                "profile_background_color": "000000",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/268587118/1388214296",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/416827128198352896/4uWyrutF_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/416827128198352896/4uWyrutF_normal.jpeg",
+                "profile_link_color": "0091FF",
+                "profile_sidebar_border_color": "0091FF",
+                "profile_sidebar_fill_color": "2E2E2E",
+                "profile_text_color": "00FF00",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "illegoapparel",
+                "statuses_count": 1578,
+                "time_zone": "Pacific Time (US & Canada)",
+                "url": "http://t.co/TEZSEuIhJY",
+                "utc_offset": -25200,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:36:07 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "dailym.ai/1iXZw3H",
+                        "expanded_url": "http://dailym.ai/1iXZw3H",
+                        "indices": [
+                            29,
+                            51
+                        ],
+                        "url": "http://t.co/wOvEUj7Oxn"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456320112228704256,
+            "id_str": "456320112228704256",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/tweetbutton\" rel=\"nofollow\">Tweet Button</a>",
+            "text": "Jeez, bad day at work honey?\nhttp://t.co/wOvEUj7Oxn",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sun Sep 30 03:51:14 +0000 2012",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Sucking head and pinching tails.. It's that season again. Southern girl with a funny accent.  Well that's what everyone say's.",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 1578,
+                "follow_request_sent": null,
+                "followers_count": 477,
+                "following": null,
+                "friends_count": 798,
+                "geo_enabled": false,
+                "id": 854053008,
+                "id_str": "854053008",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 0,
+                "location": "Diamondhead USA",
+                "name": "Dawn  @LILBITMORE2",
+                "notifications": null,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/440875695418249217/hgfsj6NZ.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/440875695418249217/hgfsj6NZ.jpeg",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/854053008/1393948043",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/440876390376673280/kgcmiktX_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/440876390376673280/kgcmiktX_normal.jpeg",
+                "profile_link_color": "009999",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "LILBITMORE2",
+                "statuses_count": 8170,
+                "time_zone": "Central Time (US & Canada)",
+                "url": null,
+                "utc_offset": -18000,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:35:36 +0000 2014",
+            "entities": {
+                "hashtags": [
+                    {
+                        "indices": [
+                            110,
+                            115
+                        ],
+                        "text": "life"
+                    },
+                    {
+                        "indices": [
+                            116,
+                            134
+                        ],
+                        "text": "sombodyhadtosayit"
+                    }
+                ],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "ift.tt/1hK6bTK",
+                        "expanded_url": "http://ift.tt/1hK6bTK",
+                        "indices": [
+                            87,
+                            109
+                        ],
+                        "url": "http://t.co/m6S1OZ7WEU"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456319982234660864,
+            "id_str": "456319982234660864",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://ifttt.com\" rel=\"nofollow\">IFTTT</a>",
+            "text": "[Picture] A kid in my school turned this paper in and got a B- (sorry for bad quality) http://t.co/m6S1OZ7WEU #life #sombodyhadtosayit",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Thu Apr 18 03:03:54 +0000 2013",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Messed-up kid from the future. They wrote a new novel about me - book trailer is here: http://t.co/oObSQg17dY",
+                "entities": {
+                    "description": {
+                        "urls": [
+                            {
+                                "display_url": "youtu.be/UvjLpQ26yKE",
+                                "expanded_url": "http://youtu.be/UvjLpQ26yKE",
+                                "indices": [
+                                    87,
+                                    109
+                                ],
+                                "url": "http://t.co/oObSQg17dY"
+                            }
+                        ]
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "flotillaonline.com",
+                                "expanded_url": "http://www.flotillaonline.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/KxS2sZMOGq"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 81,
+                "follow_request_sent": null,
+                "followers_count": 306,
+                "following": null,
+                "friends_count": 477,
+                "geo_enabled": true,
+                "id": 1360872168,
+                "id_str": "1360872168",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 4,
+                "location": "Sailing Up the Coast",
+                "name": "Jim Westfield",
+                "notifications": null,
+                "profile_background_color": "141414",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/442825816536141825/O8KjQkLY.png",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/442825816536141825/O8KjQkLY.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/1360872168/1392686047",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/435583088383385601/1WKaIV-J_normal.png",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/435583088383385601/1WKaIV-J_normal.png",
+                "profile_link_color": "E67803",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "JimWestfield",
+                "statuses_count": 12373,
+                "time_zone": "Pacific Time (US & Canada)",
+                "url": "http://t.co/KxS2sZMOGq",
+                "utc_offset": -25200,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:30:06 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                    {
+                        "id": 888183798,
+                        "id_str": "888183798",
+                        "indices": [
+                            0,
+                            11
+                        ],
+                        "name": "Arthur Aditya",
+                        "screen_name": "ArthurAdit"
+                    }
+                ]
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456318598332440576,
+            "id_str": "456318598332440576",
+            "in_reply_to_screen_name": "ArthurAdit",
+            "in_reply_to_status_id": 456317234948755456,
+            "in_reply_to_status_id_str": "456317234948755456",
+            "in_reply_to_user_id": 888183798,
+            "in_reply_to_user_id_str": "888183798",
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "@ArthurAdit \nWindows 8 is divided into good comments and bad comments. So everyone is saying good use of Windows 7 :)",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sat Nov 24 07:04:02 +0000 2012",
+                "default_profile": true,
+                "default_profile_image": false,
+                "description": "costum player - only adult , female / leave me mention       \uc740\ud63c, \uc0ac\ud37c, \ud074\ub7a8\ud504, \uc2a4\ud3ec\uce20, \uc5d0\ubc14, \ud0ac\ub77c\ud0ac,\ub098\uce20\uba54 \ub4f1 \ub113\uace0 \uae4a\uac8c \ud31c",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 1213,
+                "follow_request_sent": null,
+                "followers_count": 305,
+                "following": null,
+                "friends_count": 248,
+                "geo_enabled": true,
+                "id": 967512300,
+                "id_str": "967512300",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "ko",
+                "listed_count": 0,
+                "location": "",
+                "name": "\ub9ac\uc5d4\ud654jjijji \uc8fc\uac70\uac10",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/967512300/1396883792",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/456041809068560385/ZPNNXh7-_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/456041809068560385/ZPNNXh7-_normal.jpeg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "rien_hwa",
+                "statuses_count": 4016,
+                "time_zone": "Hawaii",
+                "url": null,
+                "utc_offset": -36000,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:30:01 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "gully.co.za/62684",
+                        "expanded_url": "http://gully.co.za/62684",
+                        "indices": [
+                            107,
+                            129
+                        ],
+                        "url": "http://t.co/2R5pLfRjif"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456318578006822913,
+            "id_str": "456318578006822913",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://kasimp3.co.za\" rel=\"nofollow\">Prime Hustler</a>",
+            "text": "Incredibly ridiculous and shortsighted. As if we need more lazy, slow, impulsive people. Bad idea. +26 -18 http://t.co/2R5pLfRjif",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Mon Apr 14 11:36:50 +0000 2014",
+                "default_profile": true,
+                "default_profile_image": false,
+                "description": "Follow the Top Comments on News24 as they are posted.",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    },
+                    "url": {
+                        "urls": [
+                            {
+                                "display_url": "news24.com",
+                                "expanded_url": "http://www.news24.com",
+                                "indices": [
+                                    0,
+                                    22
+                                ],
+                                "url": "http://t.co/FdF5awo1kj"
+                            }
+                        ]
+                    }
+                },
+                "favourites_count": 0,
+                "follow_request_sent": null,
+                "followers_count": 106,
+                "following": null,
+                "friends_count": 1212,
+                "geo_enabled": false,
+                "id": 2443760707,
+                "id_str": "2443760707",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 0,
+                "location": "Sandton",
+                "name": "News24 Comments",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/455676587199823872/TTqCajVz_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/455676587199823872/TTqCajVz_normal.jpeg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "News24_Comments",
+                "statuses_count": 376,
+                "time_zone": null,
+                "url": "http://t.co/FdF5awo1kj",
+                "utc_offset": null,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:30:00 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456318571443146753,
+            "id_str": "456318571443146753",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+            "text": "I feel like making inappropriate comments. Filters and doubts are stupid. Too bad I can't text without being sketchy. It's Bootycall hours \ud83d\ude4a",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Sat Mar 20 03:00:38 +0000 2010",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "Big Red Belle. Romanian/Canadian/American. Production assistant/runner /stage management.",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 8677,
+                "follow_request_sent": null,
+                "followers_count": 737,
+                "following": null,
+                "friends_count": 726,
+                "geo_enabled": false,
+                "id": 124644639,
+                "id_str": "124644639",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 9,
+                "location": "",
+                "name": "Isabelle Komuves",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/712021564/a039a393425b9df8032c2674264d3bdf.jpeg",
+                "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/712021564/a039a393425b9df8032c2674264d3bdf.jpeg",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/124644639/1396902524",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/447967192928489472/nFH9nmyb_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/447967192928489472/nFH9nmyb_normal.jpeg",
+                "profile_link_color": "0098B3",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "isabellekomuves",
+                "statuses_count": 16856,
+                "time_zone": "Eastern Time (US & Canada)",
+                "url": null,
+                "utc_offset": -14400,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:26:04 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456317583500013568,
+            "id_str": "456317583500013568",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+            "text": "Comments like \"If ____ was so bad, they wouldn't sell it\" just make my blood boil. Do you really, genuinely believe this is true??",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Tue Feb 21 09:27:51 +0000 2012",
+                "default_profile": false,
+                "default_profile_image": false,
+                "description": "And those who were seen dancing were thought to be insane by those who could not hear the music. -- Friedrich Nietzsche",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 703,
+                "follow_request_sent": null,
+                "followers_count": 114,
+                "following": null,
+                "friends_count": 172,
+                "geo_enabled": false,
+                "id": 498680156,
+                "id_str": "498680156",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 3,
+                "location": "",
+                "name": "fckaname",
+                "notifications": null,
+                "profile_background_color": "131516",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+                "profile_background_tile": true,
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/498680156/1373046009",
+                "profile_image_url": "http://pbs.twimg.com/profile_images/453811208177876992/yXXPPSOp_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/453811208177876992/yXXPPSOp_normal.jpeg",
+                "profile_link_color": "6781CF",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "EFEFEF",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "lipstickkncurls",
+                "statuses_count": 3916,
+                "time_zone": "Eastern Time (US & Canada)",
+                "url": null,
+                "utc_offset": -14400,
+                "verified": false
+            }
+        },
+        {
+            "contributors": null,
+            "coordinates": null,
+            "created_at": "Wed Apr 16 06:15:29 +0000 2014",
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "display_url": "bit.ly/1iXULao",
+                        "expanded_url": "http://bit.ly/1iXULao",
+                        "indices": [
+                            114,
+                            136
+                        ],
+                        "url": "http://t.co/afEHJGdoBe"
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorite_count": 0,
+            "favorited": false,
+            "geo": null,
+            "id": 456314921395838976,
+            "id_str": "456314921395838976",
+            "in_reply_to_screen_name": null,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "lang": "en",
+            "metadata": {
+                "iso_language_code": "en",
+                "result_type": "recent"
+            },
+            "place": null,
+            "possibly_sensitive": false,
+            "retweet_count": 0,
+            "retweeted": false,
+            "source": "<a href=\"http://twitterfeed.com\" rel=\"nofollow\">twitterfeed</a>",
+            "text": "ELI5: why are right-wing political parties normally classed as the \"bad guys\"?: .  submitted by  iProXi  [link... http://t.co/afEHJGdoBe",
+            "truncated": false,
+            "user": {
+                "contributors_enabled": false,
+                "created_at": "Wed Feb 05 20:05:45 +0000 2014",
+                "default_profile": true,
+                "default_profile_image": false,
+                "description": "",
+                "entities": {
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "favourites_count": 0,
+                "follow_request_sent": null,
+                "followers_count": 11,
+                "following": null,
+                "friends_count": 0,
+                "geo_enabled": false,
+                "id": 2329291592,
+                "id_str": "2329291592",
+                "is_translation_enabled": false,
+                "is_translator": false,
+                "lang": "en",
+                "listed_count": 1,
+                "location": "Cyberspace",
+                "name": "SubRedditFeeder",
+                "notifications": null,
+                "profile_background_color": "C0DEED",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/431163144241569793/uVNQUfoR_normal.jpeg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/431163144241569793/uVNQUfoR_normal.jpeg",
+                "profile_link_color": "0084B4",
+                "profile_sidebar_border_color": "C0DEED",
+                "profile_sidebar_fill_color": "DDEEF6",
+                "profile_text_color": "333333",
+                "profile_use_background_image": true,
+                "protected": false,
+                "screen_name": "subredditfeeder",
+                "statuses_count": 9740,
+                "time_zone": null,
+                "url": null,
+                "utc_offset": null,
+                "verified": false
+            }
+        }
+    ]
+}
