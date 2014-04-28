@@ -11,13 +11,25 @@ def jaccard(a, b):
     return float(len(set(a) & set(b))) / len(set(a) | set(b))
 
 
-class UserSimilarity(MRJob):
+class attackSimilarity(MRJob):
     INPUT_PROTOCOL = JSONValueProtocol
 
 
     def extract_attack_vector(self, _, record):
 
-        yield record['user_id'], record['business_id']
+        yield record['discovery_method'], record['timeline.incident.year']
 
 
-    def define_user(self, user_id, )
+
+
+
+    def steps(self):
+        """
+        steps:
+        """
+
+        return [self.mr(self.extract_attack_vector)]
+
+
+if __name__ == '__main__':
+    attackSimilarity.run();
