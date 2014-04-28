@@ -43,7 +43,8 @@ class AttackSimilarity(MRJob):
 
             similarity = jaccard_similarity_score(feat_a_array, feat_b_array)
 
-            yield [inc_a, inc_b], similarity
+            if similarity == 1.0:
+                yield [inc_a, inc_b], similarity
 
 
 
@@ -55,14 +56,15 @@ class AttackSimilarity(MRJob):
         """
         MapReduce Steps:
 
-        extract_incident :   <_, line>  =>  <incident, feature>
-        combine_incident :   <incident, [feature]> => <incident, allfeatures>
+        extract_incident    :   <_, line>  =>  <incident, feature>
+        combine_incident    :   <incident, [feature]> => <incident, allfeatures>
+        map_incident        :   <incident, [incedentfeatures] => <"all", [[incident, features]]
+        reduce_incident     :   <_, allincidents> => <[incident_pairs], similarity>
         """
 
         return [
             self.mr(mapper=self.extract_incident, reducer=self.combine_incident),
             self.mr(mapper=self.map_incident, reducer=self.reduce_incident)
-            # self.mr(reducer=self.reduce_incident)
         ]
 
 
