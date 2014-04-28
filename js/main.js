@@ -6,7 +6,7 @@ FEED = (function($){
 
 	var init = function(){
 		console.log("page initiated");
-		var datapath = '/static/data/badcomments.json';
+		var datapath = 'data/badcomments.json';
 
 
 		// initDataLoad(datapath);
@@ -34,7 +34,7 @@ FEED = (function($){
 			console.log(jQuery(this).val());
 
 			var btnval = jQuery(this).val();
-			var path = '/static/data/' + btnval + '.json';
+			var path = 'data/' + btnval + '.json';
 
 			initDataLoad(path);
 
@@ -62,8 +62,8 @@ FEED = (function($){
 				author 		: data.user.name,
 				favcount 	: data.favorite_count,
 				retcount 	: data.retweet_count,
-				feedTxt 	: data.text,
-				feedSent 	: getFeedSentiment(data.text, index)
+				feedTxt 	: data.text
+				// feedSent 	: getFeedSentiment(data.text, index)
 			};
 			
 			console.log("Text: ", feedInfo.feedTxt, "feedHashTags: ", feedInfo.hashtags, "Names: ", feedInfo.author, "Favs: ", feedInfo.favcount, "Retweets: ", feedInfo.retcount);
@@ -100,54 +100,56 @@ FEED = (function($){
 
 	var getFeedSentiment = function(txt, id){
 
-		jQuery.ajax({
-			url : 'sentiment',
-			type : 'POST',
-			data : {
-				text : txt
-			}
-		})
-		.done(function(sent){
-			console.log("Sentiment: ", sent);
+		// jQuery.ajax({
+		// 	url : 'sentiment',
+		// 	type : 'POST',
+		// 	data : {
+		// 		text : txt
+		// 	}
+		// })
+		// .done(function(sent){
+		// 	console.log("Sentiment: ", sent);
 
-			elem = jQuery('#feed-' + id); //selector caching for faster lookup
+		// 	elem = jQuery('#feed-' + id); //selector caching for faster lookup
 
-			switch(sent[0]){
+		// 	switch(sent[0]){
 
-				case 'pos':
-					//positive sentiment
-					elem.children('.sentiment').html('&#58543;');
-					elem.removeClass('neutral').addClass('positive');
-					elem.attr('data-category', 'positive');
+		// 		case 'pos':
+		// 			//positive sentiment
+		// 			elem.children('.sentiment').html('&#58543;');
+		// 			elem.removeClass('neutral').addClass('positive');
+		// 			elem.attr('data-category', 'positive');
 
-					elem.css({
-						'background-color' : 'rgba(0, 240, 0,' + sent[1] + ')'
-					});
+		// 			elem.css({
+		// 				'background-color' : 'rgba(0, 240, 0,' + sent[1] + ')'
+		// 			});
 
-					break;
+		// 			break;
 
-				case 'neg':
-					//positive sentiment
-					elem.children('.sentiment').html('&#11015;');
-					elem.removeClass('neutral').addClass('negative');
-					elem.attr('data-category', 'negative');
+		// 		case 'neg':
+		// 			//positive sentiment
+		// 			elem.children('.sentiment').html('&#11015;');
+		// 			elem.removeClass('neutral').addClass('negative');
+		// 			elem.attr('data-category', 'negative');
 
-					elem.css({
-						'background-color' : 'rgba(240, 0, 0,' + sent[1] + ')'
-					});
+		// 			elem.css({
+		// 				'background-color' : 'rgba(240, 0, 0,' + sent[1] + ')'
+		// 			});
 
-					break;
+		// 			break;
 
-				default:
-					console.log("no sentiment");
+		// 		default:
+		// 			console.log("no sentiment");
 
-			}
+		// 	}
 
-			jQuery('.progress .bar').animate({
-				'width' : String(Math.round((id + 1)/alldatalength * 100)) + '%'
-			}, 200);
+		// 	jQuery('.progress .bar').animate({
+		// 		'width' : String(Math.round((id + 1)/alldatalength * 100)) + '%'
+		// 	}, 200);
 			
-		});
+		// });
+
+		return 0.5;
 	}
 
 
