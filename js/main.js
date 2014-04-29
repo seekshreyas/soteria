@@ -119,9 +119,16 @@ SOTERIA = (function($){
 		// filter functions
 		var filterFns = {
 		    // show if number is greater than 50
-		    numberGreaterThan50: function() {
-		    	var number = $(this).find('.number').text();
-		    	return parseInt( number, 10 ) > 50;
+		    discoveryDurationGreaterThan: function() {
+		    	var number = $(this).find('.discovery_daycount').text();
+
+
+		    	if (parseInt(number, 10)){
+		    		return parseInt( number, 10 ) > 100;
+		    	}else{
+		    		console.log("number: ", parseInt(number, 10))
+		    	}
+		    		
 		    },
 		    // show if name ends with -ium
 		    ium: function() {
@@ -143,6 +150,8 @@ SOTERIA = (function($){
 		    var $buttonGroup = $( buttonGroup );
 		    
 		    $buttonGroup.on( 'click', 'button', function() {
+	
+
 		    	$buttonGroup.find('.is-checked').removeClass('is-checked');
 		    	$( this ).addClass('is-checked');
 		    });
