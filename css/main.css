@@ -195,7 +195,7 @@ body{
 
 /*div*/
 .wrapper-page{
-    width:960px;
+    width:90%;
     margin:0 auto;
 }
 
@@ -270,6 +270,8 @@ header, section, footer{
 h1{
     width:100%;
     text-align: center;
+    margin:0;
+    padding:0;
 }
 
 
@@ -514,9 +516,12 @@ h1{
         text-align:center;
     }
 
-.element-feed.positive        { background: rgba(0, 240, 0, 0.5); }
-.element-feed.neutral         { background: rgba(240, 240, 240, 0.5); }
-.element-feed.negative        { background: rgba(240, 0, 0, 0.5); }
+.element-feed.hacking         { background: rgba(254, 214, 0, 0.2); }
+.element-feed.malware         { background: rgba(193, 36, 39, 0.2); }
+.element-feed.social          { background: rgba(205, 16, 118, 0.2); }
+.element-feed.misuse          { background: rgba(159, 134, 171, 0.2); }
+.element-feed.physical        { background: rgba(247, 247, 0, 0.2); }
+.element-feed.error           { background: rgba(154, 154, 92, 0.2); }
 
 
 

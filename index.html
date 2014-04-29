@@ -25,13 +25,13 @@
         </header>
 
         <section id="wrapper-search">
-            <div class="wrapper-page">
+            <!-- <div class="wrapper-page">
              
                 <div class="progress sentiment">
                     <span>Sentiment Progress</span>
                     <span class="bar">&nbsp;</span>
                 </div>
-            </div>
+            </div> -->
 
             
 
@@ -39,36 +39,46 @@
             
         </section>
         <section id="wrapper-feed">
-            <div id="filters" class="button-group">
-              <button data-filter="*">show all</button>
-              <button data-filter=".external">external</button>
-              <button data-filter=".internal">internal</button>
-              <button data-filter=".hacking">hacking</button>
-              <button data-filter=".malware">malware</button>
-              <button data-filter=".social">social</button>
-              <button data-filter=".misuse">misuse</button>
-              <button data-filter=".physical">physical</button>
-              <button data-filter=".error">error</button>
-              <button data-filter=".social, .hacking">social & hacking</button>
-              
-              
-            </div>
-            
+
+            <div class="wrapper-page">
+
+                <div id="filters" class="button-group">
+                    <button data-filter="*">show all</button>
+
+                    <span class="separator">|</span>
+                    <button data-filter=".hacking">hacking</button>
+                    <button data-filter=".malware">malware</button>
+                    <button data-filter=".social">social</button>
+                    <button data-filter=".misuse">misuse</button>
+                    <button data-filter=".physical">physical</button>
+                    <button data-filter=".error">error</button>
+
+                    <span class="separator">|</span>
+                    <button data-filter=".external">external</button>
+                    <button data-filter=".internal">internal</button>
+
+                    <span class="separator">|</span>
+                    <button data-filter=".social.hacking">social & hacking</button>
+                  
+                  
+                </div>
+                
 
 
-            <div class="feed">
+                <div class="feed">
 
-              <div class="element-feed external" data-category="external">
-                <p class="country">US</p>
-                <p class="state">CA</p>
-                <p class="victim_id">United States Department of Veterans Affairs</p>
-                <p class="employee_count">5000</p>
-                <p class="revenue_amount">5000</p>
-                <p class="discovery_daycount">10</p>
-                <p class="incident_year">2012</p>
-              </div>
-             
-              
+                  <div class="element-feed external" data-category="external">
+                    <p class="country">US</p>
+                    <p class="state">CA</p>
+                    <p class="victim_id">United States Department of Veterans Affairs</p>
+                    <p class="employee_count">5000</p>
+                    <p class="revenue_amount">5000</p>
+                    <p class="discovery_daycount">10</p>
+                    <p class="incident_year">2012</p>
+                  </div>
+                 
+                  
+                </div>
             </div>
         </section>
         <footer>
