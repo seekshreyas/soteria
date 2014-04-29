@@ -91,9 +91,9 @@ SOTERIA = (function($){
 		if (d['action.error'] === 1)			{	attClass += 'error '; 			} 	//if error is true
 		if (d['action.hacking'] === 1)			{	attClass += 'hacking '; 		} 	//if hacking is true
 		if (d['action.malware'] === 1)			{	attClass += 'malware '; 		} 	//if malware is true
-		if (d['action.misuse'] === 1)			{	attClass += 'misuse '; 		} 	//if misuse is true
+		if (d['action.misuse'] === 1)			{	attClass += 'misuse '; 			} 	//if misuse is true
 		if (d['action.physical'] === 1)			{	attClass += 'physical '; 		} 	//if physical is true
-		if (d['action.social'] === 1)			{	attClass += 'social '; 		} 	//if social is true
+		if (d['action.social'] === 1)			{	attClass += 'social '; 			} 	//if social is true
 		if (d['action.unknown'] === 1)			{	attClass += 'unknown '; 		} 	//if unknown is true
 
 
