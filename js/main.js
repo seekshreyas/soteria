@@ -33,6 +33,10 @@ SOTERIA = (function($){
 		console.log("event handler");
 	};
 
+	function trim (str) {
+    	return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+	}
+
 	var renderFeed = function(alldata){
 		console.log("No of hacks: ", alldata.length);
 
@@ -41,15 +45,6 @@ SOTERIA = (function($){
 			if (index < 100){
 				console.log("Data: ", data, index);
 
-				// <div class="element-feed external" data-category="external">
-	   //              <p class="country">US</p>
-	   //              <p class="state">CA</p>
-	   //              <p class="victim_id">United States Department of Veterans Affairs</p>
-	   //              <p class="employee_count">5000</p>
-	   				// <p class="revenue_amount">5000</p>
-	   //              <p class="discovery_daycount">10</p>
-	   //              <p class="incident_year">2012</p>
-	   //            </div>
 
 				var attackInfo = {
 					attType		: data['actor.external'] == '1' ? 'external' : 'internal',
@@ -66,14 +61,14 @@ SOTERIA = (function($){
 
 				var attackElem = '';
 
-				attackElem += '<div class="element-feed external" data-category="external">';
-				attackElem += '<p class="country">US</p>';
-				attackElem += '<p class="state">CA</p>';
-				attackElem += '<p class="victim_id">United States Department of Veterans Affairs</p>';
-				attackElem += '<p class="employee_count">5000</p>';
-				attackElem += '<p class="revenue_amount">5000</p>';
-				attackElem += '<p class="discovery_daycount">10</p>';
-				attackElem += '<p class="incident_year">2012</p>';
+				attackElem += '<div class="element-feed ' + attackInfo.attType + ' '+ trim(attackInfo.attVector) + '" data-category="'+ trim(attackInfo.attVector) + '">';
+				attackElem += '<p class="country">' + attackInfo.attCountry + '</p>';
+				attackElem += '<p class="state">' + attackInfo.attState + '</p>';
+				attackElem += '<p class="victim_id">' + attackInfo.attVictim + '</p>';
+				attackElem += '<p class="employee_count">' + attackInfo.attEmpCount + '</p>';
+				attackElem += '<p class="revenue_amount">' + attackInfo.attAmount + '</p>';
+				attackElem += '<p class="discovery_daycount">' + attackInfo.attDayCount + '</p>';
+				attackElem += '<p class="incident_year">' + attackInfo.attYear + '</p>';
 				attackElem += '</div>';
 
 
@@ -91,9 +86,18 @@ SOTERIA = (function($){
 
 	var getAttackVector = function(d){
 
-		// if d['']
+		var attClass = '';
+		if (d['action.environmental'] === 1)	{	attClass += 'environmental '; 	} 	//if environmental is true
+		if (d['action.error'] === 1)			{	attClass += 'error '; 			} 	//if error is true
+		if (d['action.hacking'] === 1)			{	attClass += 'hacking '; 		} 	//if hacking is true
+		if (d['action.malware'] === 1)			{	attClass += 'malware '; 		} 	//if malware is true
+		if (d['action.misuse'] === 1)			{	attClass += 'misuse '; 		} 	//if misuse is true
+		if (d['action.physical'] === 1)			{	attClass += 'physical '; 		} 	//if physical is true
+		if (d['action.social'] === 1)			{	attClass += 'social '; 		} 	//if social is true
+		if (d['action.unknown'] === 1)			{	attClass += 'unknown '; 		} 	//if unknown is true
 
-		return 0;
+
+		return attClass;
 	}
 	
 
