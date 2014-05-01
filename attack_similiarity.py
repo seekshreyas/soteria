@@ -30,11 +30,11 @@ class AttackSimilarity(MRJob):
         yield incident, list(allfeatures[0])
 
 
-    def map_incident(self, incd, incdfeat):
+    def distribute_incident(self, incd, incdfeat):
         yield "all" , [incd, list(incdfeat)]
 
 
-    def reduce_incident(self, _, allincidents):
+    def similar_incident(self, _, allincidents):
         for (inc_a, feat_a), (inc_b, feat_b) in combinations(list(allincidents), r=2):
 
             feat_a_array = np.array(feat_a, dtype='int')
@@ -43,8 +43,8 @@ class AttackSimilarity(MRJob):
 
             similarity = jaccard_similarity_score(feat_a_array, feat_b_array)
 
-            if similarity == 1.0:
-                yield [inc_a, inc_b], similarity
+            # if similarity == 1.0:
+            yield [inc_a, inc_b], similarity
 
 
 
@@ -64,7 +64,7 @@ class AttackSimilarity(MRJob):
 
         return [
             self.mr(mapper=self.extract_incident, reducer=self.combine_incident),
-            self.mr(mapper=self.map_incident, reducer=self.reduce_incident)
+            self.mr(mapper=self.distribute_incident, reducer=self.similar_incident)
         ]
 
 
