@@ -479,12 +479,12 @@ h1{
   background-repeat: no-repeat;
 }
 
-.element-feed.width2 { 
+/*.element-feed.width2 { 
   width: 400px; 
 
 
 }
-.element-feed.width3 { height: 400px; }
+.element-feed.width3 { height: 400px; }*/
 
 .element-feed > * {
   margin: 0;
@@ -496,6 +496,7 @@ h1{
     clear:both;
     
 }
+
 
 .element-feed .tags {
   font-size: 1.5em;
