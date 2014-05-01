@@ -60,8 +60,11 @@ SOTERIA = (function($){
 
 
 				var attackElem = '';
+				var attacks = trim(attackInfo.attVector).split(' ');
 
-				attackElem += '<div class="element-feed ' + attackInfo.attType + ' '+ trim(attackInfo.attVector) + '" data-category="'+ trim(attackInfo.attVector) + '">';
+				var attWidth = 'width' + attacks.length;
+
+				attackElem += '<div class="element-feed ' + attWidth + ' ' + attackInfo.attType + ' '+ trim(attackInfo.attVector) + '" data-category="'+ trim(attackInfo.attVector) + '">';
 				attackElem += '<p class="country">' + attackInfo.attCountry + '</p>';
 				attackElem += '<p class="state">' + attackInfo.attState + '</p>';
 				attackElem += '<p class="victim_id">' + attackInfo.attVictim + '</p>';
