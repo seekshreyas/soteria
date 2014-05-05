@@ -40,3 +40,7 @@ nosetests.xml
 
 # Windows
 Thumbs.db
+
+# AWS permissions file
+*.pem
+*.conf
