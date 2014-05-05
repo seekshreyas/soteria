@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Security DataBase Visualized</title>
+        <meta name="description" content="Securityk">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header>
+            <div class="wrapper-page">
+                <!-- <h1>Soteria</h1> -->
+                <h1>
+                    <figure id="logo">
+                        <img src="img/logo.png" width="300" height="71" /> 
+                    </figure>
+                </h1>
+            </div>
+        </header>
+
+        <section id="wrapper-plots">
+            <div class="wrapper-page">
+
+                <div class="wrapper-plot">
+                
+                    <figure class="pict-plot">
+                        <img src="img/plot_incidents_per_year.jpg" width="500" height="303" >
+                    </figure>
+
+                    <figure class="pict-plot">
+                        <img src="img/plot_incidents_per_industry.jpg" width="532" height="303" >
+                    </figure>
+                </div>
+            </div>
+            
+        </section>
+
+
+        <section id="wrapper-feed">
+
+            <div class="wrapper-page">
+
+                <div id="filters" class="button-group">
+                    <button class="button" data-filter="*">show all</button>
+
+                    
+                    <button class="button" data-filter=".hacking">hacking</button>
+                    <button class="button" data-filter=".malware">malware</button>
+                    <button class="button" data-filter=".social">social</button>
+                    <button class="button" data-filter=".misuse">misuse</button>
+                    <button class="button" data-filter=".physical">physical</button>
+                    <button class="button" data-filter=".error">error</button>
+
+                    
+                    <button class="button" data-filter=".external">external</button>
+                    <button class="button" data-filter=".internal">internal</button>
+
+
+                    <button class="button" data-filter="discoveryDurationGreaterThan">discovery > 100</button>   
+                    <button class="button" data-filter=".social.hacking">social & hacking</button>
+                    <button class="button" data-filter=".external.hacking">external & hacking</button>
+                    <button class="button" data-filter=".internal.hacking">internal & hacking</button>
+                    <button class="button" data-filter=".internal.social">internal & social</button>
+
+                    <button class="button" data-filter=":not(.hacking)">not(hacking)</button>
+                  
+                  
+                </div>
+                
+
+
+                <div class="feed">
+
+                  
+                 
+                  
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="wrapper-page">
+                <p>Authored by Soteria Team</p>
+            </div>
+        </footer>
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/isotope.pkgd.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
