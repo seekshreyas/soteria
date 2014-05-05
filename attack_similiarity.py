@@ -2,9 +2,8 @@
 from __future__ import division
 from mrjob.job import MRJob
 from itertools import combinations
-from sklearn.metrics import jaccard_similarity_score
-import numpy as np
-# from mrjob.protocol import JSONValueProtocol
+# from sklearn.metrics import jaccard_similarity_score
+# import numpy as np
 
 
 
@@ -37,14 +36,16 @@ class AttackSimilarity(MRJob):
     def similar_incident(self, _, allincidents):
         for (inc_a, feat_a), (inc_b, feat_b) in combinations(list(allincidents), r=2):
 
-            feat_a_array = np.array(feat_a, dtype='int')
-            feat_b_array = np.array(feat_b, dtype='int')
+            # feat_a_array = np.array(feat_a, dtype='int')
+            # feat_b_array = np.array(feat_b, dtype='int')
 
 
-            similarity = jaccard_similarity_score(feat_a_array, feat_b_array)
+            # similarity = jaccard_similarity_score(feat_a_array, feat_b_array)
 
-            # if similarity == 1.0:
-            yield [inc_a, inc_b], similarity
+            similarity = len(feat_a)
+
+            if similarity == 1.0:
+                yield [inc_a, inc_b], similarity
 
 
 

@@ -44,3 +44,6 @@ Thumbs.db
 # AWS permissions file
 *.pem
 *.conf
+
+# 
+similar_attacks_all.*
