@@ -42,7 +42,7 @@ SOTERIA = (function($){
 
 		alldata.forEach(function(data, index){
 
-			if (index < 100){
+			if (index < 200){
 				console.log("Data: ", data, index);
 
 
