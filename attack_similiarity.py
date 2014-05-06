@@ -50,7 +50,7 @@ class AttackSimilarity(MRJob):
 
             sys.stderr.write("Similarity: ({0},{1})\n".format([inc_a, inc_b],similarity))
 
-            if similarity > 0.90 :
+            if similarity >= 0.99 :
                 yield [inc_a, inc_b], similarity
 
 
