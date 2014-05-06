@@ -1,25 +1,26 @@
-var FEED = FEED || {};
+var SOTERIA = SOTERIA || {};
 
-FEED = (function($){
+SOTERIA = (function($){
 
 	var alldatalength = 0;
 
 	var init = function(){
 		console.log("page initiated");
-		var datapath = '/static/data/badcomments.json';
 
+		var datapath = 'data/vcdb_isotope.json';
 
-		// initDataLoad(datapath);
+		initDataLoad(datapath);
 
-		evtHandler();
+		// evtHandler();
 	};
 
 
 
 	//first method
 	var initDataLoad = function(path){
-
+		console.log("data: ", path);
 		$.getJSON( path, function( data ) {
+
 		  	renderFeed(data);
 		  	initIsotope();
 		});
@@ -30,138 +31,79 @@ FEED = (function($){
 
 	//event handler
 	var evtHandler = function(){
-		jQuery('input[type|=radio]').click(function(){
-			console.log(jQuery(this).val());
-
-			var btnval = jQuery(this).val();
-			var path = '/static/data/' + btnval + '.json';
-
-			initDataLoad(path);
-
-		});
+		console.log("event handler");
 	};
 
-	var renderFeed = function(alldata){
-		console.log("No of tweets: ", alldata.statuses.length);
-
-		alldatalength = alldata.statuses.length
-
-		jQuery('.feed').html('');
-		jQuery('.progress .bar').css({
-			'width' : '0'
-		});
-
-
-		alldata.statuses.forEach(function(data, index){
-			// check data
-			// console.log("interesting data points: ", data.entities, data.favorite_count);
-
-			var feedInfo = {
-				index		: index,
-				hashtags 	: getHashTags(data.entities.hashtags),
-				author 		: data.user.name,
-				favcount 	: data.favorite_count,
-				retcount 	: data.retweet_count,
-				feedTxt 	: data.text,
-				feedSent 	: getFeedSentiment(data.text, index)
-			};
-			
-			console.log("Text: ", feedInfo.feedTxt, "feedHashTags: ", feedInfo.hashtags, "Names: ", feedInfo.author, "Favs: ", feedInfo.favcount, "Retweets: ", feedInfo.retcount);
-
-			//<div id="feed-1" class="element-feed neutral" data-category="neutral">
-          	//   <p class="tags">#tag1 #tag2</p>
-          	//   <p class="text">lorem ipsum dolor sit amet. A general neutral comment</p>
-          	//   <p class="author">@seekshreyas</p>
-          	//   <p class="sentiment">&#9205;</p>
-          	//   <p class="retweet">2</p>
-          	//   <p class="favorite">2</p>
-          	// </div>
-
-          	var feedElem = '';
-
-          	var size = (feedInfo.hashtags.length <= 2) ? 'width1' : 'width2';
-
-          	feedElem +=	'<div id="feed-' + index + '" class="element-feed neutral '+ size + '" data-category="neutral">';
-          	feedElem += '<p class="tags">' + feedInfo.hashtags.toString() + '</p>';
-          	feedElem += '<p class="text">' + feedInfo.feedTxt + '</p>';
-          	feedElem += '<p class="sentiment">&#9205;</p>';
-          	feedElem += '<p class="author">'+ feedInfo.author + '</p>';
-          	feedElem += '<p class="retweet">' + feedInfo.retcount + '</p>';
-          	feedElem += '<p class="favorite">' + feedInfo.favcount + '</p>';
-          	feedElem += '</div>';
-
-          	jQuery('.feed').append(feedElem);
-
-
-		});
-	};
-
-
-
-	var getFeedSentiment = function(txt, id){
-
-		jQuery.ajax({
-			url : 'sentiment',
-			type : 'POST',
-			data : {
-				text : txt
-			}
-		})
-		.done(function(sent){
-			console.log("Sentiment: ", sent);
-
-			elem = jQuery('#feed-' + id); //selector caching for faster lookup
-
-			switch(sent[0]){
-
-				case 'pos':
-					//positive sentiment
-					elem.children('.sentiment').html('&#58543;');
-					elem.removeClass('neutral').addClass('positive');
-					elem.attr('data-category', 'positive');
-
-					elem.css({
-						'background-color' : 'rgba(0, 240, 0,' + sent[1] + ')'
-					});
-
-					break;
-
-				case 'neg':
-					//positive sentiment
-					elem.children('.sentiment').html('&#11015;');
-					elem.removeClass('neutral').addClass('negative');
-					elem.attr('data-category', 'negative');
-
-					elem.css({
-						'background-color' : 'rgba(240, 0, 0,' + sent[1] + ')'
-					});
-
-					break;
-
-				default:
-					console.log("no sentiment");
-
-			}
-
-			jQuery('.progress .bar').animate({
-				'width' : String(Math.round((id + 1)/alldatalength * 100)) + '%'
-			}, 200);
-			
-		});
+	function trim (str) {
+    	return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
 	}
 
+	var renderFeed = function(alldata){
+		console.log("No of hacks: ", alldata.length);
 
-	var getHashTags = function(hEntities){
-		var tags = [];
+		alldata.forEach(function(data, index){
 
-		hEntities.forEach(function(t){
-			tags.push(t.text);
+			if (index < 200){
+				console.log("Data: ", data, index);
+
+
+				var attackInfo = {
+					attType		: data['actor.external'] == '1' ? 'external' : 'internal',
+					attVector	: getAttackVector(data),
+					attCountry 	: data['victim.country'],
+					attState 	: data['victim.state'],
+					attVictim 	: data['victim.victim_id'],
+					attEmpCount : data['victim.employee_count'],
+					attAmount 	: data['revenue.amount'],
+					attDayCount : data['timeline.discovery.day_count'],
+					attYear 	: data['timeline.incident.year']
+				};
+
+
+				var attackElem = '';
+				var attacks = trim(attackInfo.attVector).split(' ');
+
+				var attWidth = 'width' + attacks.length;
+
+				attackElem += '<div class="element-feed ' + attWidth + ' ' + attackInfo.attType + ' '+ trim(attackInfo.attVector) + '" data-category="'+ trim(attackInfo.attVector) + '">';
+				attackElem += '<p class="country">' + attackInfo.attCountry + '</p>';
+				attackElem += '<p class="state">' + attackInfo.attState + '</p>';
+				attackElem += '<p class="victim_id">' + attackInfo.attVictim + '</p>';
+				attackElem += '<p class="employee_count">' + attackInfo.attEmpCount + '</p>';
+				attackElem += '<p class="revenue_amount">' + attackInfo.attAmount + '</p>';
+				attackElem += '<p class="discovery_daycount">' + attackInfo.attDayCount + '</p>';
+				attackElem += '<p class="incident_year">' + attackInfo.attYear + '</p>';
+				attackElem += '</div>';
+
+
+				jQuery('.feed').append(attackElem);
+			}
+			
+
+
+
 		});
 
-		return tags; 
+	
 	};
 
 
+	var getAttackVector = function(d){
+
+		var attClass = '';
+		if (d['action.environmental'] === 1)	{	attClass += 'environmental '; 	} 	//if environmental is true
+		if (d['action.error'] === 1)			{	attClass += 'error '; 			} 	//if error is true
+		if (d['action.hacking'] === 1)			{	attClass += 'hacking '; 		} 	//if hacking is true
+		if (d['action.malware'] === 1)			{	attClass += 'malware '; 		} 	//if malware is true
+		if (d['action.misuse'] === 1)			{	attClass += 'misuse '; 			} 	//if misuse is true
+		if (d['action.physical'] === 1)			{	attClass += 'physical '; 		} 	//if physical is true
+		if (d['action.social'] === 1)			{	attClass += 'social '; 			} 	//if social is true
+		if (d['action.unknown'] === 1)			{	attClass += 'unknown '; 		} 	//if unknown is true
+
+
+		return attClass;
+	}
+	
 
 
 	// referred from: 
@@ -181,9 +123,16 @@ FEED = (function($){
 		// filter functions
 		var filterFns = {
 		    // show if number is greater than 50
-		    numberGreaterThan50: function() {
-		    	var number = $(this).find('.number').text();
-		    	return parseInt( number, 10 ) > 50;
+		    discoveryDurationGreaterThan: function() {
+		    	var number = $(this).find('.discovery_daycount').text();
+
+
+		    	if (parseInt(number, 10)){
+		    		return parseInt( number, 10 ) > 100;
+		    	}else{
+		    		console.log("number: ", parseInt(number, 10))
+		    	}
+		    		
 		    },
 		    // show if name ends with -ium
 		    ium: function() {
@@ -205,6 +154,8 @@ FEED = (function($){
 		    var $buttonGroup = $( buttonGroup );
 		    
 		    $buttonGroup.on( 'click', 'button', function() {
+	
+
 		    	$buttonGroup.find('.is-checked').removeClass('is-checked');
 		    	$( this ).addClass('is-checked');
 		    });
@@ -220,5 +171,5 @@ FEED = (function($){
 })(jQuery);
 
 jQuery(document).ready(function(){
-	FEED.init();
+	SOTERIA.init();
 });
