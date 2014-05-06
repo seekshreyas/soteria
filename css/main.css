@@ -251,6 +251,12 @@ header, section, footer{
     clear:both;
     width:100%;
     padding:2em 0;
+    color:#fff;
+    background:#222;
+}
+
+footer a{
+  margin:0 0 0 10px;
 }
 
 /*section colors */
@@ -263,8 +269,7 @@ header{
 
 
   
-
-
+d
 
 
 
