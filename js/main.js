@@ -18,8 +18,9 @@ SOTERIA = (function($){
 
 	//first method
 	var initDataLoad = function(path){
-
+		console.log("data: ", path);
 		$.getJSON( path, function( data ) {
+
 		  	renderFeed(data);
 		  	initIsotope();
 		});
