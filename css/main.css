@@ -253,9 +253,12 @@ header, section, footer{
 }
 
 /*section colors */
-header          { background:#e9e7eb; }
-#wrapper-plots  { background: #e0e0e0;}
-#wrapper-feed   { background: #222222;}
+header{ 	
+	background: #222222;
+	border-bottom: 1px solid #999;
+}
+
+#wrapper-plots, #wrapper-feed  { background: #222222;}
 
 
   
@@ -347,14 +350,35 @@ h1{
 /*figure*/
 .wrapper-plot{
   float:left;
-  text-align: center;
   width:100%;
 
 }
 
+.wrapper-plot p{
+	float: left;
+	width: 90%;
+	padding: 0 5%;
+}
+
 .pict-plot{
   float:left;
-  margin:0 3% 0 9%;
+  margin:5% 5% 0 9%;
+}
+
+.pict-plot img{
+	border: 1px solid #609FDB;
+}
+
+#text-plot{
+	float: left;
+	width: 60%;
+	padding: 20px 0 0 0;
+	color: #FFF;
+}
+
+#chart-plot{
+	float: left;
+	width: 25%;
 }
 
 

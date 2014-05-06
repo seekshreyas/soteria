@@ -33,14 +33,23 @@
             <div class="wrapper-page">
 
                 <div class="wrapper-plot">
-                
-                    <figure class="pict-plot">
-                        <img src="img/plot_incidents_per_year.jpg" width="500" height="303" >
-                    </figure>
-
-                    <figure class="pict-plot">
-                        <img src="img/plot_incidents_per_industry.jpg" width="532" height="303" >
-                    </figure>
+					<div id="text-plot">
+						<p>
+							<strong>ASHLEY</strong> is a project that focuses on exploring and analysing <strong>security breach data</strong>. For our analysis we will be using a <a href="http://www.veriscommunity.net/doku.php">VERIS Community Database</a>. It is a set of <strong>metrics</strong> designed to provide a common language for describing security incidents in a <strong>structured and repeatable</strong> manner. 
+						</p>
+						<p>
+							We <strong>analysed</strong> and <strong>extracted</strong> interesting <strong>features</strong> to ascertain defining <strong>attributes</strong> for security breaches, built an <strong>interface</strong> for quick filtering of breach data, and finally used a <strong>similarity algorithm</strong> to identify <strong>similar</strong> breaches.
+						</p>
+					</div>
+					<div id="chart-plot">
+						<figure class="pict-plot">
+							<img src="img/incidents_per_year.jpg" class="magnify" width="200" />
+						</figure>
+					
+						<figure class="pict-plot">
+							<img src="img/incident_by_industry.jpg" class="magnify" width="200" />
+						</figure>
+					</div>	
                 </div>
             </div>
             
@@ -99,6 +108,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/vendor/isotope.pkgd.js"></script>
         <script src="js/plugins.js"></script>
+		<script type="text/javascript" src="js/jquery.magnifier.js"></script>
         <script src="js/main.js"></script>
 
     </body>
