@@ -3,7 +3,8 @@ from __future__ import division
 from mrjob.job import MRJob
 from itertools import combinations
 # from sklearn.metrics import jaccard_similarity_score
-# import numpy as np
+import numpy as np
+import sys
 
 
 
@@ -19,6 +20,7 @@ class AttackSimilarity(MRJob):
         if record[0] != 'incident_id':
             feature = record[1:]
             incident = record[0]
+
 
             yield incident, list(feature)
 
@@ -36,15 +38,19 @@ class AttackSimilarity(MRJob):
     def similar_incident(self, _, allincidents):
         for (inc_a, feat_a), (inc_b, feat_b) in combinations(list(allincidents), r=2):
 
-            # feat_a_array = np.array(feat_a, dtype='int')
-            # feat_b_array = np.array(feat_b, dtype='int')
+            feat_a_array = np.array(feat_a, dtype='int')
+            feat_b_array = np.array(feat_b, dtype='int')
 
 
             # similarity = jaccard_similarity_score(feat_a_array, feat_b_array)
+            feat_a_mag = np.sqrt(np.dot(feat_a_array, feat_a_array))
+            feat_b_mag = np.sqrt(np.dot(feat_b_array, feat_a_array))
 
-            similarity = len(feat_a)
+            similarity = float(np.dot(feat_a_array, feat_b_array))/ (feat_a_mag * feat_b_mag)
 
-            if similarity == 1.0:
+            sys.stderr.write("Similarity: ({0},{1})\n".format([inc_a, inc_b],similarity))
+
+            if similarity > 0.90 :
                 yield [inc_a, inc_b], similarity
 
 
@@ -76,4 +82,4 @@ class AttackSimilarity(MRJob):
 
 
 if __name__ == '__main__':
-    AttackSimilarity.run();
+    AttackSimilarity.run()
