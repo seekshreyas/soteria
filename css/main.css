@@ -255,6 +255,9 @@ header, section, footer{
     background:#222;
 }
 
+footer p{
+  text-align:center;
+}
 footer a{
   margin:0 0 0 10px;
 }
@@ -268,8 +271,7 @@ header{
 #wrapper-plots, #wrapper-feed  { background: #222222;}
 
 
-  
-d
+
 
 
 
